@@ -1,0 +1,85 @@
+
+#navbar{
+    background-color: #D9C7A7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 2px solid black;
+}
+
+.navbarUl{
+    padding-top: 10px;
+}
+
+body{
+    color:#5D543E;
+}
+#Info {
+    background-color: #8D7B67;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    color: #FAF4E0;
+}
+#About{
+    background-color: #D9C7A7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#About h3{
+    font-weight: 600;
+}
+#Projects{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #D9C7A7;
+}
+#ProfilePicImage{
+    margin-top: 20px;
+    border-radius: 50%; 
+    border-style: solid 
+}
+.bg{
+    background-color: #D9C7A7;
+}
+
+.skillsLogo{
+    margin: 1px 3px;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    height: 26px ;
+}
+
+.style-none {
+    text-decoration: none;
+    color: inherit; 
+}
+
+button{
+    border-radius: 10%;
+    border-width: 3px;
+    background-color: #D9C7A7;
+}
+
+#WeLoveMoviesImage{
+    border-radius: 10%;
+    border-style: solid;
+    width: 100%;
+}
+
+#GrubDashImage{
+    border-radius: 10%;
+    border-style: solid;
+}
+#RestaurantImage{
+    border-radius: 10%;
+    border-style: solid;
+}
+#ThinkfulBnbImage{
+    border-radius: 8%;
+    border-style: solid;
+}

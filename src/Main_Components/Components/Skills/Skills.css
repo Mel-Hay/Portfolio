@@ -1,0 +1,134 @@
+.skills-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 60px; /* 50px (arrow width) + 15px (margin) */
+    padding-right: 60px;
+}
+
+.arrow {
+    width: 80px;
+    margin: 0 ;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.2s;
+    position: absolute;
+    top: 20%;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+#SkillSection {
+    color: #D9C7A7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #5D543E;
+}
+.arrow:hover {
+    transform: scale(1.5);
+}
+
+.skills {
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%; /* or set it as per your requirement */
+    scroll-behavior: smooth;
+    
+}
+
+.skills::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit browsers */
+}
+
+.skills img {
+    max-height: 150px; /* Adjust based on your requirement */
+    max-width: 200px;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.img-wrapper:hover img {
+    transform: scale(1.2); /* Adjust the scale value as needed */
+}
+
+.img-wrapper span {
+    position: absolute;
+    bottom: -30px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none; /* Ensures the tooltip doesn't interfere with hover on the image */
+    z-index: 2;
+}
+
+.img-wrapper:hover span {
+    opacity: 1;
+}
+.img-wrapper:focus {
+    outline: none;
+}
+.img-wrapper {
+    user-select: none;
+}
+.img-wrapper:active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.switcher {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 2em; 
+}
+
+.option {
+    flex: 1;
+    padding: 5px 20px;
+    transition: all 0.3s; 
+    text-align: center; 
+}
+
+.option.selected {
+    background-color: #D9C7A7; 
+    color: #5D543E;
+    font-weight: bold;
+    border-bottom: 2px solid #5D543E; 
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+#About{
+    background-color: #C3DBE8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ProfilePicImage{
+    margin-top: 5vw;
+    border-radius: 50%; 
+    border-style: solid;
+    border-width: .5em;
+}
+
+#About h3{
+    font-weight: 600;
+}
+#About p{
+    font-size:1rem;
+}
+
+@media (min-width: 768px) {
+    #About p{
+        font-size:2vw;
+    }
+    #About{
+        padding-top: 5vw;
+    }
+    #About h3{
+        font-size:4.5vw;
+        padding: 2vw 1.5vw
+    }
+}

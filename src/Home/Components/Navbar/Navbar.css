@@ -1,0 +1,28 @@
+#navbar{
+    background-color: #9bbde8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:3vw;
+    font-weight: bold;
+    position: fixed;
+    height: 35px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+    
+}
+
+
+
+.navbarUl{
+    margin: 0 0 0 0;
+    width: 80vw;
+    justify-content: space-between;
+    display:flex;
+}
+
+
+@media (min-width: 480px){
+    #navbar{
+        font-size: 1em;}
+}

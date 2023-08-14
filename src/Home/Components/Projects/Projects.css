@@ -1,0 +1,106 @@
+#Projects{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C3DBE8;
+    padding: 0 5em;
+}
+
+button{
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #2A6A8F;
+    width: 96%;
+    height: 10vw;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    align-items: center;
+}
+
+
+#WeLoveMoviesImage{
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#GrubDashImage{
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+}
+#RestaurantImage{
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+}
+#ThinkfulBnbImage{
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+}
+ .skillsLogo{
+    margin: 1px 3px;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    height: 26px ;
+} 
+
+.skillsLogo, .h3Skills{
+    display:none
+}
+
+.style-none {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.Title{
+    display:flex;
+    width: 100%;
+    padding-left: 5%;
+}
+#RestaurantSection .Title{
+    font-size: 2em;
+}
+
+#Projects p{
+    font-size: 1.1rem;
+}
+#SkillsList{
+    margin-bottom:1.5em ;
+}
+
+.ProjectTitle{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#Projects #gitHubImage{
+    margin-right:2vw;
+    width: 5vw;
+}
+
+
+@media(min-width:768px){
+    .Title{
+        justify-content: end;
+        
+    }
+    #WeLoveMoviesSection p  #GrubDashSection p, #ThinkfulBnbSection p, #RestaurantSection p{
+        font-size: 1em;
+        margin-top: 0;
+    }
+    #WeLoveMoviesSection {
+        align-items: center; 
+    }
+
+    #WeLoveMoviesImage , #GrubDashImage, #ThinkfulBnbImage, #RestaurantImage{
+        max-width: 100%;
+        height: auto; 
+    }
+
+    .skillsLogo, .h3Skills {
+        display: inline-block; 
+    }
+}

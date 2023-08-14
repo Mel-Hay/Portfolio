@@ -1,0 +1,141 @@
+.card {
+    width: 100vw;
+    height: 35vw;
+    perspective: 1000px;
+    cursor: pointer;
+    transform-style: preserve-3d; 
+    transition: transform 0.6s ease-in-out;
+    display:none;
+  }
+  
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-front {
+    background-image: url('../../Images/Misc/BcFrontside.png');
+    backface-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card-back {
+    background-image: url('../../Images/Misc/BcBackside.png');
+    backface-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotateY(180deg);
+  }
+
+.grow-on-hover:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.grow-on-hover img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.grow-on-hover img:hover {
+  transform: scale(1.1); 
+}
+
+#Contact{
+    background-color: #C3DBE8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:5vw 4vw;
+}
+
+h1, p{
+    font-weight: 600;
+}
+
+#Contact h1{
+  width: 100%;
+  text-align: center;
+}
+
+
+.col-2{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
+.imgLogos img{
+  margin-bottom:15px;
+}
+
+.mobile-contact img{
+  width: 100%;
+  height: auto;
+  padding-top: 2vw;
+  margin:auto;
+}
+
+.mobileText{
+   font-size: 1.25em;
+   text-align: start;
+   font-weight: bold;
+}
+
+.md-contact img{
+  width: 70%;
+  height: auto;
+  padding-top: .5vw;
+  margin:auto;
+}
+
+.colText h4, .colText p{
+   font-size: 1.25em;
+   text-align: start;
+   margin-bottom:0;
+   font-weight: bold;
+}
+#Contact span{
+  display: none;
+}
+#gmail{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media (min-width: 480px){
+    .card{
+      display:flex;
+    }
+    .mobile-contact{
+      display:none;
+    }
+    #Contact{
+      padding-left:0; 
+      padding-right:0; 
+    }
+    #Contact h1{
+      padding-left:5vw;
+    }
+    #Contact span{
+      display: inline;
+    }
+    #Contact p{
+      padding-top: 5%;
+      margin:0;
+    }
+    
+}
+

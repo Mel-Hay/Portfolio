@@ -1,0 +1,46 @@
+#Footer img {
+    width: 5vw;
+    margin-right: 1vw;
+}
+
+#Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.5em;
+    background-color: #9bbde8;
+}
+
+#Footer .d-flex.row {
+    justify-content: center; 
+}
+
+#Footer .d-inline-flex {
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; 
+}
+.wImage p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.woImage p{
+    margin-bottom: 0;
+}
+
+.grow-on-hover:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.grow-on-hover img {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.grow-on-hover img:hover {
+    transform: scale(1.1); 
+}
+

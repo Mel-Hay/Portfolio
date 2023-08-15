@@ -88,13 +88,15 @@ button{
         
     }
     #WeLoveMoviesSection p  #GrubDashSection p, #ThinkfulBnbSection p, #RestaurantSection p{
-        font-size: 1em;
+        font-size: 1em ; 
         margin-top: 0;
     }
     #WeLoveMoviesSection {
         align-items: center; 
     }
-
+    #RestaurantSection .Title{
+        font-size: 1.25em;
+    }
     #WeLoveMoviesImage , #GrubDashImage, #ThinkfulBnbImage, #RestaurantImage{
         max-width: 100%;
         height: auto; 
